@@ -1,0 +1,156 @@
+body{
+    background-color: #333;
+    background-image: url(a-world-full-of-red.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aqua;
+}
+
+.topnav {
+    background-color: #0b45e6;
+    overflow: hidden;
+    word-spacing: 140px;
+  }
+
+
+  .topnav a {
+    float: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #0afa3e;
+    color: rgb(218, 20, 20);
+  }
+  
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    text-decoration: ;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    }
+    .content {
+    padding: 20px;
+    min-height: 150vh; /* Example to create some scrolling */
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        }
+      p{
+        color: aqua;
+        font-family: Arial;
+        line-height: 1.6;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+      }
+
+      #img{
+        height: 100px;
+        width: 200px;
+        position: static;
+      }
+
+      #pop{
+        background-color: greenyellow;
+      }
+
+      #pin{
+        text-decoration: underline;
+        text-transform: uppercase;
+      }
+
+      #sin{
+        text-align: center;
+        text-decoration: line-through;
+        line-height: 1.6;
+        text-shadow: : 2px 2px 4px red;
+      }
+
+      h1{
+        font-weight: bolder;
+        font-style: italic;
+        color: rgb(0, 237, 245);
+        font-size: normal;
+      }
+
+      h3{
+        font-weight: bolder;
+        font-style: italic;
+        color: rgb(0, 255, 242);
+        font-size: 60px;
+        background-color: #000000;
+      }
+
+      .jan{
+        ho
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+        background-color: rgb(0, 0, 0);
+        padding: 40px;
+        }
+        .grid-item {
+        background-color: rgb(219, 252, 33);
+        padding: 20px;
+        text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+          }
+
+          #about {
+            border-width: 2px 4px 2px 4px; /* top, right, bottom, left */
+            border-style: solid !important;
+            border-color: #3498db;
+            border-radius: 15px;
+            }
+            
+            #skills {
+                border-top: 5px solid #8e44ad;
+                border-bottom: none;
+                border-left: none;
+                border-right: none;
+                }
+        
+                .container {
+                    display: flex;
+                    justify-content: space-between;
+                    }
+                    .box {
+                    width: 400px;
+                    height: 300px;
+                    color: aqua;
+                    background-color: rgb(0, 0, 0);
+                    }                  
+                

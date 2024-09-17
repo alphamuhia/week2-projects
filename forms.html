@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+        background-color: #333;
+        background-image: url(gojo-domain-expansion.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#forms">Forms</a>
+        <a href="index.html">Home</a>
+    </div>
+
+    <br>
+
+    <forme action>
+        <lable for="firstname">first name</lable>
+        <input type="text" placeholder="Enter first name" id="pop">
+        <lable for="Lastname">Last name</lable>
+        <input type="text" placeholder="Last name" id="pop">
+        <label for="exampleDataList" class="form-label">County</label>
+        <input class="form-control" list="datalistOptions" id="pop" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+          <option value="Nyeri">
+          <option value="Kiambu">
+          <option value="Kisumu">
+          <option value="Mombasa">
+          <option value="Nairobi">
+        </datalist>
+        <br>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="pop" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="pop"> 
+              <br>       
+              <input type="checkbox" class="form-check-input" id="">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            
+          </form>          
+        <br>
+        <br>
+        <form actiom>
+            <label for="gender">Gender:</label>
+            <lable for="male">Male</lable>
+            <input type="radio" Name="gender" id value="Male">
+            <label for="female">Female:
+                </lable>
+                <input type="radio" Name="gender" id value="female">
+                <lable for="not">prefer not to say:</lable>
+                <input type="radio" Name="gender" id value="prefer not">
+                <br>
+                <br>
+                <label for="language">programing language</label>
+                <input type="checkbox" name="language" id value="html">
+                <label for="html">HTML</label>
+                <label for="language">programing language</label>
+                <input type="checkbox" name="language" id value="css">
+                <label for="css">CSS</label>
+                <label for="language">programing language</label>
+                <input type="checkbox" name="language" id value="java">
+                <label for="java">JAVA</label>
+                <br>
+                <div class="row g-3 align-items-center">
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Password</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="password" id="pop" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+                    <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text">
+                            Must be 8-20 characters long.
+                        </span>
+                    </div>
+                </div>
+                <br>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                    <input class="form-control" type="file" id multiple>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileSm" class="form-label">Small file input example</label>
+                    <input class="form-control form-control-sm" id type="file">
+                </div>
+                <div>
+                    <label for="formFileLg" class="form-label">Large file input example</label>
+                    <input class="form-control form-control-lg" id type="file">
+                </div>
+                <br>
+                <br>
+                <label for="message">Message</label>
+                <textarea name="message" id="pop" cols="20" raws="5"></textarea>
+        </form>
+        <br>
+        <form>
+            <fieldset disabled>
+                <legend>
+                    Disabled fieldset
+                    example
+                </legend>
+                <div class="mb-3">
+                    <label for="disabledTextInput" class="form-label">
+                        Disabled
+                        input
+                    </label>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">
+                        Disabled
+                        select menu
+                    </label>
+                    <select id="disabledSelect" class="form-select">
+                        <option>Disabled select</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                        <label class="form-check-label" for="disabledFieldsetCheck">
+                            Can't check this
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+        </form>
+        <br>
+        <input type="Submit">
+    </forme>
+    <footer>
+        &copy; 2024 My Forms | All Rights Reserved
+    </footer>
+</body>
+
+</html>
